@@ -15,8 +15,6 @@ body {
   align-items: center;
   height: 100%;
 }
-.grid-boxes {
-}
 .container {
   border: 5px solid black;
   display: flex;
