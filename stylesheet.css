@@ -5,15 +5,24 @@ html {
 }
 body {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10px;
   align-items: center;
   flex-direction: column;
 }
 .content {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100%;
+}
+.colors {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+}
+.colors button {
+  height: 50px;
+  width: 50px;
+  padding: 0;
 }
 .container {
   border: 5px solid black;
@@ -22,4 +31,23 @@ body {
   height: 500px;
   width: 500px;
   background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#black {
+  background-color: black;
+}
+#red {
+  background-color: red;
+}
+#fuchsia {
+  background-color: fuchsia;
+}
+#green {
+  background-color: green;
+}
+#blue {
+  background-color: blue;
+}
+#yellow {
+  background-color: yellow;
 }
