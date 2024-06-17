@@ -1,14 +1,63 @@
-body,
-html {
-  height: 100%;
-  background-color: blanchedalmond;
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
 }
 body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
   display: flex;
   justify-content: center;
   gap: 10px;
   align-items: center;
   flex-direction: column;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+body,
+html {
+  height: 100%;
+  background-color: rgb(0, 96, 151);
+}
+
+h1 {
+  color: white;
+  -webkit-text-stroke: 1px black;
+  font-size: 4rem;
 }
 .content {
   display: flex;
@@ -20,18 +69,21 @@ body {
   justify-content: flex-start;
 }
 .colors button {
-  height: 50px;
-  width: 50px;
+  height: 3rem;
+  width: 3rem;
   padding: 0;
 }
 .container {
-  border: 5px solid black;
+  border: 0rem solid black;
   display: flex;
   flex-wrap: wrap;
-  height: 500px;
-  width: 500px;
+  height: 35rem;
+  width: 35rem;
   background-color: white;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
 }
 #black {
   background-color: black;

@@ -24,8 +24,8 @@ function buildBox() {
     let numDivs = 0;
     while (numDivs < gridSize*gridSize) {
         const div = document.createElement("div");
-        div.style.height = `${500 / gridSize}px`
-        div.style.width = `${500 / gridSize}px`
+        div.style.height = `${35 / gridSize}rem`
+        div.style.width = `${35 / gridSize}rem`
         container.appendChild(div);
         div.classList.add("grid-boxes")
         numDivs++
