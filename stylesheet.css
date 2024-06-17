@@ -18,8 +18,8 @@ body {
   gap: 10px;
   align-items: center;
   flex-direction: column;
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual,
+    cursive;
 }
 img,
 picture,
@@ -102,4 +102,7 @@ h1 {
 }
 #yellow {
   background-color: yellow;
+}
+.buttons {
+  justify-content: space-between;
 }
